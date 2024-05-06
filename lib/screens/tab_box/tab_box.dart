@@ -2,6 +2,7 @@ import 'package:firstappn11/screens/tab_box/calendar/calendar_screen.dart';
 import 'package:firstappn11/screens/tab_box/chat/chat_screen.dart';
 import 'package:firstappn11/screens/tab_box/home/home_screen.dart';
 import 'package:firstappn11/screens/tab_box/profile/profile_screen.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class TabBox extends StatefulWidget {
@@ -38,7 +39,7 @@ class _TabBoxState extends State<TabBox> {
         },
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home, color: Colors.grey),
+            icon: Icon(CupertinoIcons.home, color: Colors.grey),
             activeIcon: Icon(Icons.home, color: Colors.deepPurple),
             label: "Home",
           ),
